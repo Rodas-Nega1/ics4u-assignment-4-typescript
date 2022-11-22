@@ -16,7 +16,7 @@ const prompt = promptSync()
  * @param {number} integer number of disks
  * @param {number} spacesNum first peg
  */
-function asteristics(integer: number, spacesNum: number = 0) {
+function asteristics (integer: number, spacesNum: number = 0): number {
   // Generate asteristics.
   let output: string = ''
 
